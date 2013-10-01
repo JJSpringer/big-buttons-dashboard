@@ -1,0 +1,281 @@
+/*------------------------------------------------------------------------------
+
+Howdy! This is the CSS file that controls the
+specific colors for Straightfoward Dashboard.
+
+------------------------------------------------------------------------------*/
+/* General stuff */
+#dashboardlower {
+	color: #0074A2;
+	text-align: center;
+	font-weight: 300;
+}
+
+.js .meta-box-sortables .postbox:hover .handlediv:before {
+	color: white;
+}
+
+.dashboardborder {
+	height: 1px;
+	width: 70%;
+	margin: 0 auto;
+	background-color: #0074A2;
+}
+
+#jjdashboard_newpost_widget, #jjdashboard_editpost_widget, #jjdashboard_newpage_widget, #jjdashboard_editpage_widget, #jjdashboard_comments_widget, #jjdashboard_cattags_widget, #jjdashboard_media_widget, #jjdashboard_stats_widget, #jjdashboard_theme_widget, #jjdashboard_menu_widget, #jjdashboard_widgets_widget, #jjdashboard_customizer_widget, #jjdashboard_users_widget  {
+/* 	background-color: #1e8cbe; */
+	cursor: pointer;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #0074A2;
+	background: red;
+}
+
+#poststuff h3, .metabox-holder h3 {
+	opacity: 0;
+}
+.postbox.closed h3 {
+	opacity: 100;
+	color: white;
+	font-weight: 300;
+}
+.postbox.closed h3:hover {
+	opacity: 100;
+	color: white;
+}
+
+/* Post Box */
+.dashboardpost {
+	color: white;
+	font-size: 1.5em;
+	text-align: center;
+	margin-bottom: 10%;
+	margin-top: 7%;
+}
+
+.dashboardpost a {
+	color: white;
+	font-weight: 300;
+	padding-bottom: 10px;
+}
+
+.dashboardpost a:before {
+	content:'\f109';
+	color: white;
+	font: normal 18px/1 'dashicons';
+	margin-right: 5px;
+}
+
+.dashboardpost a:hover:before {
+	color: #0074A2;
+}
+
+.dashboardpost a:hover {
+	color: #0074A2;
+}
+
+/* Page Boxes */
+.dashboardpage {
+	color: white;
+	font-size: 1.5em;
+	text-align: center;
+	margin-bottom: 10%;
+	margin-top: 7%;
+}
+
+.dashboardpage a {
+	color: white;
+	font-weight: 300;
+	padding-bottom: 10px;
+}
+
+.dashboardpage a:before {
+	content:'\f105';
+	color: white;
+	font: normal 18px/1 'dashicons';
+	margin-right: 5px;
+}
+
+.dashboardpage a:hover:before {
+	color: #0074A2;
+}
+
+.dashboardpage a:hover {
+	color: #0074A2;
+}
+
+/* Comments Box */
+.dashboardcomments {
+	color: white;
+	font-size: 1.5em;
+	text-align: center;
+	margin-bottom: 10%;
+	margin-top: 7%;
+}
+.dashboardcomments a {
+	color: white;
+	font-weight: 300;
+	margin-bottom: 20px;
+}
+
+.dashboardcomments a:before {
+	content:'\f101';
+	color: white;
+	font: normal 18px/1 'dashicons';
+	margin-right: 5px;
+}
+
+.dashboardcomments a:hover:before {
+	color: #0074A2;
+}
+
+.dashboardcomments a:hover {
+	color: #0074A2;
+}
+
+/* Categories and Tags Box */
+.dashboardcattags {
+	color: white;
+	font-size: 1.5em;
+	text-align: center;
+	margin-bottom: 10%;
+	margin-top: 7%;
+}
+.dashboardcattags a {
+	color: white;
+	font-weight: 300;
+	margin-bottom: 20px;
+}
+
+.dashboardcattags a:before {
+	content:'\f101';
+	color: white;
+	font: normal 18px/1 'dashicons';
+	margin-right: 5px;
+}
+
+.dashboardcattags a:hover:before {
+	color: #0074A2;
+}
+
+.dashboardcattags a:hover {
+	color: #0074A2;
+}
+
+/* Media Box */
+.dashboardmedia {
+	color: white;
+	font-size: 1.5em;
+	text-align: center;
+	margin-bottom: 10%;
+	margin-top: 7%;
+}
+.dashboardmedia a {
+	color: white;
+	font-weight: 300;
+	margin-bottom: 20px;
+}
+
+.dashboardmedia a:before {
+	content:'\f104';
+	color: white;
+	font: normal 18px/1 'dashicons';
+	margin-right: 5px;
+}
+
+.dashboardmedia a:hover:before {
+	color: #0074A2;
+}
+
+.dashboardmedia a:hover {
+	color: #0074A2;
+}
+
+/* Appearance Box */
+.dashboardappearance {
+	color: white;
+	font-size: 1.5em;
+	text-align: center;
+	margin-bottom: 10%;
+	margin-top: 7%;
+}
+.dashboardappearance a {
+	color: white;
+	font-weight: 300;
+	margin-bottom: 20px;
+}
+
+.dashboardappearance a:before {
+	content:'\f100';
+	color: white;
+	font: normal 18px/1 'dashicons';
+	margin-right: 5px;
+}
+
+.dashboardappearance a:hover:before {
+	color: #0074A2;
+}
+
+.dashboardappearance a:hover {
+	color: #0074A2;
+}
+
+/* Users Box */
+.dashboardusers {
+	color: white;
+	font-size: 1.5em;
+	text-align: center;
+	margin-bottom: 10%;
+	margin-top: 7%;
+}
+.dashboardusers a {
+	color: white;
+	font-weight: 300;
+	margin-bottom: 20px;
+}
+
+.dashboardusers a:before {
+	content:'\f110';
+	color: white;
+	font: normal 18px/1 'dashicons';
+	margin-right: 5px;
+}
+
+.dashboardusers a:hover:before {
+	color: #0074A2;
+}
+
+.dashboardusers a:hover {
+	color: #0074A2;
+}
+
+/* Statistics Box */
+.dashboardstats {
+	color: white;
+	font-size: 1.5em;
+	text-align: center;
+	margin-bottom: 10%;
+	margin-top: 7%;
+}
+.dashboardstats a {
+	color: white;
+	font-weight: 300;
+	margin-bottom: 20px;
+}
+
+.dashboardstats a:before {
+	content:'\f238';
+	color: white;
+	font: normal 18px/1 'dashicons';
+	margin-right: 5px;
+}
+
+.dashboardstats a:hover:before {
+	color: #0074A2;
+}
+
+.dashboardstats a:hover {
+	color: #0074A2;
+}
+
+
